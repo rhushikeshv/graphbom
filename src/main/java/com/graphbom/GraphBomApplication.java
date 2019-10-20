@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GraphBomApplication {
 
 	public static void main(String[] args) {
-		//Basic spring boot application
+		//Basic spring boot application for graph bom
 
 		SpringApplication.run(GraphBomApplication.class, args);
 	}
