@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: neo4j-contrib:neo4j-spark-connector:2.1.0-M4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/neo4j-contrib/neo4j-spark-connector/2.1.0-M4/neo4j-spark-connector-2.1.0-M4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/neo4j-contrib/neo4j-spark-connector/2.1.0-M4/neo4j-spark-connector-2.1.0-M4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/neo4j-contrib/neo4j-spark-connector/2.1.0-M4/neo4j-spark-connector-2.1.0-M4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
