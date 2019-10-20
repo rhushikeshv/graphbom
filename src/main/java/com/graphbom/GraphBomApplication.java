@@ -8,6 +8,7 @@ public class GraphBomApplication {
 
 	public static void main(String[] args) {
 		//Basic spring boot application
+
 		SpringApplication.run(GraphBomApplication.class, args);
 	}
 
