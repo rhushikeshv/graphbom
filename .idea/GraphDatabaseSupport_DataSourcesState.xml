@@ -6,7 +6,11 @@
         <option name="dataSources">
           <list>
             <DataSourceV1>
+<<<<<<< HEAD
               <option name="uuid" value="185f8c45-a415-4002-9f6b-b992374b9619" />
+=======
+              <option name="uuid" value="20057973-162c-45f0-b363-359ee0f43216" />
+>>>>>>> 185cfc2eab77641e04b19122fc8b5b88a1644601
               <option name="name" value="neo4j" />
               <option name="dataSourceType" value="NEO4J_BOLT" />
               <option name="configuration">

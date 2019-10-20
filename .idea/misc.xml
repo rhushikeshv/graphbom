@@ -10,6 +10,9 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+=======
+>>>>>>> 185cfc2eab77641e04b19122fc8b5b88a1644601
 </project>
