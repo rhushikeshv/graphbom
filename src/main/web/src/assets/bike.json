@@ -1,0 +1,73 @@
+{
+  "data":
+  [
+    {
+      "data":{
+        "name":"Bike",
+        "description":"This is the top level part of the assembly"
+      },
+      "children":[
+        {
+          "data":{
+            "name":"Handle bars",
+            "description":"Handle bars of the bike"
+          }
+        },
+        {
+          "data":{
+            "name":"Frame assembly",
+            "description":"Handle bars of the bike"
+          },
+          "children":[
+            {
+              "data":{
+                "name":"Wheel",
+                "description":"This is the Assembly of the bike"
+              },
+              "children":[
+                {
+                  "data":{
+                    "name":"Spokes",
+                    "description":"This is a spokes type of wheel"
+                  }
+                },
+                {
+                  "data":{
+                    "name":"Tire Rims",
+                    "description":"This is a tire rim type of wheel"
+                  }
+                }
+              ]
+            },
+            {
+              "data":{
+                "name":"Frame",
+                "description":"This is the frame of the bike"
+              },
+              "children":[
+                {
+                  "data":{
+                    "name":"Tubing",
+                    "description":"This is tubing of bike"
+                  }
+                },
+                {
+                  "data":{
+                    "name":"Paint",
+                    "description":"This is paint of bike"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "data":{
+            "name":"Seat",
+            "description":"This is the seat of the bike"
+          }
+        }
+      ]
+    }
+  ]
+}

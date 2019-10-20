@@ -1,0 +1,27 @@
+<h3 class="first">EBOM</h3>
+<div *ngIf="show" class="ui-progressbar-indeterminate">
+    <p-progressBar [mode]="indeterminate"></p-progressBar>
+</div>
+<p-treeTable [value]="nodes">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Revision</th>
+      <th>Description</th>
+      <th>Quantity</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowNode let-rowNodeIndex="rowNodeIndex"  let-rowData="rowData">
+    <tr [ttRow]="rowNode">
+      <td>
+        <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
+        {{rowData.name}}
+      </td>
+      <td>{{rowData.type}}</td>
+      <td>{{rowData.rev}}</td>
+      <td>{{rowData.description}}</td>
+      <td>{{rowData.quantity==0?rowData.genericQuantity:rowData.quantity}}</td>
+    </tr>
+  </ng-template>
+</p-treeTable>
