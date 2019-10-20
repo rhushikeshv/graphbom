@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +27,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1485">
               <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+=======
+            <state relative-caret-position="1380">
+              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
             </state>
           </provider>
         </entry>
@@ -30,8 +41,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/GraphBomApplication.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
+=======
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
             </state>
           </provider>
         </entry>
@@ -207,7 +223,11 @@
       <workItem from="1571510153874" duration="3374000" />
       <workItem from="1571543961694" duration="301000" />
       <workItem from="1571547505974" duration="596000" />
+<<<<<<< HEAD
       <workItem from="1571548588109" duration="282000" />
+=======
+      <workItem from="1571548588109" duration="145000" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
     </task>
     <task id="LOCAL-00001" summary="updated with basic spring boot project">
       <created>1571513555333</created>
@@ -265,6 +285,7 @@
       <option name="project" value="LOCAL" />
       <updated>1571548081105</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00009" summary="add compiler settings">
       <created>1571548819371</created>
       <option name="number" value="00009" />
@@ -277,11 +298,22 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="5564000" />
+=======
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5427000" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -293,7 +325,7 @@
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,7 +335,11 @@
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Graph Database Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.4989339" visible="true" weight="0.32917964" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946696" weight="0.32917964" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
@@ -331,8 +367,12 @@
     <MESSAGE value="updated with basic spring boot project" />
     <MESSAGE value="added the IDE project files" />
     <MESSAGE value="udpated with datasource config" />
+<<<<<<< HEAD
     <MESSAGE value="add compiler settings" />
     <option name="LAST_COMMIT_MESSAGE" value="add compiler settings" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="udpated with datasource config" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -365,8 +405,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1485">
           <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+=======
+        <state relative-caret-position="1380">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
         </state>
       </provider>
     </entry>
@@ -379,8 +424,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/GraphBomApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+=======
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 18c4a281fd68da6e15d3190bad08603df8c31249
         </state>
       </provider>
     </entry>
