@@ -1,0 +1,21 @@
+<p-messages [(value)]="msgs"></p-messages>
+<p-table [value]="parts" [columns]="cols">
+  <ng-template pTemplate="header" let-columns>
+    <tr>
+      <th *ngFor="let col of columns" [pSortableColumn]="col.field">
+        {{col.header}}
+        <p-sortIcon [field]="col.field" ariaLabel="Activate to sort"
+                     ariaLabelDesc="Activate to sort in descending order"
+                    ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
+      </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-part>
+    <tr>
+      <td>{{part.name}}</td>
+      <td>{{part.description}}</td>
+      <td>{{part.level}}</td>
+      <td>{{part.id}}</td>
+    </tr>
+  </ng-template>
+</p-table>
