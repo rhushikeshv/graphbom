@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opencypher:okapi-trees:0.4.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opencypher/okapi-trees/0.4.2/okapi-trees-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opencypher/okapi-trees/0.4.2/okapi-trees-0.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opencypher/okapi-trees/0.4.2/okapi-trees-0.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
