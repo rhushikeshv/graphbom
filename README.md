@@ -62,6 +62,4 @@ Modify the conf/neo4j.conf file for unrestricted access to apoc procedures
 
 dbms.security.procedures.unrestricted=apoc.*
 
-git token ( use as username, no password) 
-5e517f89652318970a183b15c40d2071bf826b6c
 
