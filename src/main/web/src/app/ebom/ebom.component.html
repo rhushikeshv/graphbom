@@ -1,4 +1,10 @@
-<h3 class="first">EBOM</h3>
+<h3 class="first">Search EBOM</h3>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Search" [(ngModel)]="name">
+  <div class="input-group-append">
+    <button class="btn btn-success" type="submit" (click)="find()">Go</button>
+  </div>
+</div>
 <div *ngIf="show" class="ui-progressbar-indeterminate">
     <p-progressBar [mode]="indeterminate"></p-progressBar>
 </div>

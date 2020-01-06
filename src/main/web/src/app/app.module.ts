@@ -22,6 +22,7 @@ import {ProgressBarModule} from 'primeng/primeng';
 
 import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
+import {FormsModule} from "@angular/forms";
 
 // @ts-ignore
 @NgModule({
@@ -41,7 +42,8 @@ import {MessageModule} from 'primeng/message';
     AccordionModule,
     ProgressBarModule,
     MessagesModule,
-    MessageModule
+    MessageModule,
+    FormsModule
   ],
   providers: [EBOMService, PartService, HttpClient],
   bootstrap: [AppComponent]

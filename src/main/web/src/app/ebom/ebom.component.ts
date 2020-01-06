@@ -13,6 +13,8 @@ export class EbomComponent implements OnInit {
   cols: any[];
   public show = false;
 
+  name:string;
+
   constructor(private ebomService: EBOMService) { }
 
   ngOnInit() {
@@ -27,12 +29,17 @@ export class EbomComponent implements OnInit {
 
 
     ];
-    this.ebomService.loadBOM().then(nodes => {
+
+  }
+
+  find() {
+
+    this.ebomService.loadBOM(this.name).then(nodes => {
       console.log(nodes);
       this.nodes = nodes;
       this.show = false;
       console.log(' turning off the progress  bar');
     });
-  }
 
+  }
 }
