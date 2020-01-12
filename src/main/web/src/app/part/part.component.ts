@@ -24,10 +24,11 @@ export class PartComponent implements OnInit {
       { field: 'name', header: 'Name' },
       { field: 'description', header: 'Description' },
       { field: 'level', header: 'Level' },
-      { field: 'id', header: 'ID' }
+      { field: 'id', header: 'ID' },
+      { field: 'rev', header: 'Revision' },
+      { field: 'quantity', header: 'Quantity' },
     ];
 
-    // this.carService.getCarsSmall().then(cars => this.cars = cars);
     this.partService.getParts().then(res => {
       this.parts = res.data;
       if (res.message === 'FAIL') {
