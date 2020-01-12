@@ -49,10 +49,10 @@ public class PartReader {
 
             Part p = new Part("Part",datavalue[1],1L);
             p.setQuantity(Long.parseLong(datavalue[2]));
-            p.setUnitPrice(datavalue[3]);
-            p.setUnitsInStock(datavalue[4]);
-            p.setUnitsOnOrder(datavalue[5]);
-            p.setReorderLevel(datavalue[6]);
+            p.setUnitPrice(Long.parseLong(datavalue[3]));
+            p.setUnitsInStock(Long.parseLong(datavalue[4]));
+            p.setUnitsOnOrder(Long.parseLong(datavalue[5]));
+            p.setReorderLevel(Long.parseLong(datavalue[6]));
             p.setDiscontinued(datavalue[7]);
 
             //create(bike:Part {name:'Bike',level:1,description:'top',type:'Part',rev:1})

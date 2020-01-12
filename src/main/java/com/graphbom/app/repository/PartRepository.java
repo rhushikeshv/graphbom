@@ -15,7 +15,8 @@ import java.util.Map;
 public interface PartRepository extends Neo4jRepository<Part,Long> {
 
 
-    @Query("MATCH path=(n:Part{name:'Bike'})-[r:EBOM*]->(m:Part) WHERE NOT (" + "(m)-[:EBOM*]->()) " + "RETURN m")
+    //@Query("MATCH path=(n:Part{name:'Bike'})-[r:EBOM*]->(m:Part) WHERE NOT (" + "(m)-[:EBOM*]->()) " + "RETURN m")
+    @Query("MATCH (n:Part) RETURN n")
     Collection<Part> findAll();
 
     @Query("MATCH p=(n:Part{ name:{name},type:{type},rev:{rev}})-[:EBOM*]->" +

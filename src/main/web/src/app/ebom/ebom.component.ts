@@ -18,7 +18,6 @@ export class EbomComponent implements OnInit {
   constructor(private ebomService: EBOMService) { }
 
   ngOnInit() {
-    this.show = true;
     console.log(' EBOM comp loaded');
     this.cols = [
       { field: 'name', header: 'Name' },
@@ -26,14 +25,12 @@ export class EbomComponent implements OnInit {
       { field: 'type', header: 'Type' },
       { field: 'rev', header: 'Revision' },
       { field: 'quantity', header: 'Quantity' }
-
-
     ];
 
   }
 
   find() {
-
+    this.show = true;
     this.ebomService.loadBOM(this.name).then(nodes => {
       console.log(nodes);
       this.nodes = nodes;

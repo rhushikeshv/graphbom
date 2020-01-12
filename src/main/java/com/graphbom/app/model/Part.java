@@ -39,10 +39,10 @@ public class Part {
     private Long rev;
     private Long quantity=0L;
     private String genericQuantity;
-    private String unitPrice;
-    private String unitsInStock;
-    private String unitsOnOrder;
-    private String reorderLevel;
+    private Long unitPrice;
+    private Long unitsInStock;
+    private Long unitsOnOrder;
+    private Long reorderLevel;
     private String discontinued;
 
     @Version
@@ -171,38 +171,38 @@ public class Part {
         this.ebom = ebom;
     }
 
-    public String getUnitPrice() {
+    public Long getUnitPrice() {
         return unitPrice;
     }
 
-    public void setUnitPrice(String unitPrice) {
+    public void setUnitPrice(Long unitPrice) {
         this.unitPrice = unitPrice;
         this.details.setUnitPrice(this.unitPrice);
     }
 
-    public String getUnitsInStock() {
+    public Long getUnitsInStock() {
         return unitsInStock;
     }
 
-    public void setUnitsInStock(String unitsInStock) {
+    public void setUnitsInStock(Long unitsInStock) {
         this.unitsInStock = unitsInStock;
         this.details.setUnitPrice(this.unitsInStock);
     }
 
-    public String getUnitsOnOrder() {
+    public Long getUnitsOnOrder() {
         return unitsOnOrder;
     }
 
-    public void setUnitsOnOrder(String unitsOnOrder) {
+    public void setUnitsOnOrder(Long unitsOnOrder) {
         this.unitsOnOrder = unitsOnOrder;
         this.details.setUnitsOnOrder(this.unitsOnOrder);
     }
 
-    public String getReorderLevel() {
+    public Long getReorderLevel() {
         return reorderLevel;
     }
 
-    public void setReorderLevel(String reorderLevel) {
+    public void setReorderLevel(Long reorderLevel) {
         this.reorderLevel = reorderLevel;
         this.details.setReorderLevel(reorderLevel);
     }

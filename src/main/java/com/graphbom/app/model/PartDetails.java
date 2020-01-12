@@ -11,10 +11,10 @@ public class PartDetails {
     private Long quantity=0L;
     private String genericQuantity;
 
-    private String unitPrice;
-    private String unitsInStock;
-    private String unitsOnOrder;
-    private String reorderLevel;
+    private Long unitPrice;
+    private Long unitsInStock;
+    private Long unitsOnOrder;
+    private Long reorderLevel;
     private String discontinued;
 
     public String getType() {
@@ -68,35 +68,35 @@ public class PartDetails {
         this.genericQuantity = genericQuantity;
     }
 
-    public String getUnitPrice() {
+    public Long getUnitPrice() {
         return unitPrice;
     }
 
-    public void setUnitPrice(String unitPrice) {
+    public void setUnitPrice(Long unitPrice) {
         this.unitPrice = unitPrice;
     }
 
-    public String getUnitsInStock() {
+    public Long getUnitsInStock() {
         return unitsInStock;
     }
 
-    public void setUnitsInStock(String unitsInStock) {
+    public void setUnitsInStock(Long unitsInStock) {
         this.unitsInStock = unitsInStock;
     }
 
-    public String getUnitsOnOrder() {
+    public Long getUnitsOnOrder() {
         return unitsOnOrder;
     }
 
-    public void setUnitsOnOrder(String unitsOnOrder) {
+    public void setUnitsOnOrder(Long unitsOnOrder) {
         this.unitsOnOrder = unitsOnOrder;
     }
 
-    public String getReorderLevel() {
+    public Long getReorderLevel() {
         return reorderLevel;
     }
 
-    public void setReorderLevel(String reorderLevel) {
+    public void setReorderLevel(Long reorderLevel) {
         this.reorderLevel = reorderLevel;
     }
 
