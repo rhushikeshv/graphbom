@@ -61,7 +61,8 @@ public class PartBOMService {
         TransactionStatus status = transactionManager.getTransaction(def);
         boolean error = false;
         try {
-            this.partRepository.createPart(newPart.getType(),newPart.getName(),newPart.getRev());
+            newPart = this.partRepository.createPart(newPart.getType(),newPart.getName(),newPart.getRev(),newPart.getQuantity());
+            System.out.println("the unique id is " + newPart.getId() );
             result.setData(newPart);
             result.setMessage("OK");
         }
@@ -78,8 +79,10 @@ public class PartBOMService {
                 transactionManager.rollback(status);
             }
             else {
-
                 transactionManager.commit(status);
+                String uuid = this.partRepository.findPartUUID(newPart.getId());
+                System.out.println("The part uuid is "+ uuid );
+                newPart.setBusID(uuid);
             }
         }
         return result;
@@ -169,10 +172,10 @@ public class PartBOMService {
                 Part end   = ebom.getEndNode();
 
                 start = this.partRepository.createPart(start.getType(),
-                        start.getName(),start.getRev());
+                        start.getName(),start.getRev(),start.getQuantity());
 
                 end = this.partRepository.createPart(end.getType(),end.getName(),
-                    end.getRev());
+                    end.getRev(),end.getQuantity());
 
                 if(biDirectional) {
 

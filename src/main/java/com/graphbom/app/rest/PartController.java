@@ -43,12 +43,15 @@ public class PartController {
                              @RequestParam String name,
                              @RequestParam Long quantity){
 
+        System.out.println("the type is " + type);
+        System.out.println("the name is " + name);
+        System.out.println("the quantity is " + quantity);
+
         Part newPart = new Part();
         newPart.setName(name);
         newPart.setType(type);
         newPart.setRev(1L); // for new parts the rev starts from 1, in each update call, the rev increments by 1
         newPart.setQuantity(quantity);
-        System.out.println("Part creation in progress12355544444");
         return this.partBOMService.createPart(newPart);
 
 

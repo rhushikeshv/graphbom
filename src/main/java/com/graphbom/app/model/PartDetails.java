@@ -17,6 +17,8 @@ public class PartDetails {
     private Long reorderLevel;
     private String discontinued;
 
+    private String busID="";
+
     public String getType() {
         return type;
     }
@@ -106,5 +108,13 @@ public class PartDetails {
 
     public void setDiscontinued(String discontinued) {
         this.discontinued = discontinued;
+    }
+
+    public String getBusID() {
+        return busID;
+    }
+
+    public void setBusID(String busID) {
+        this.busID = busID;
     }
 }

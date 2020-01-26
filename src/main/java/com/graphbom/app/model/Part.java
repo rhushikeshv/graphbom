@@ -45,6 +45,9 @@ public class Part {
     private Long reorderLevel;
     private String discontinued;
 
+    private String busID="";
+
+
     @Version
     private Long version=1L; //optimistic locking
 
@@ -214,5 +217,13 @@ public class Part {
     public void setDiscontinued(String discontinued) {
         this.discontinued = discontinued;
         this.details.setDiscontinued(discontinued);
+    }
+
+    public String getBusID() {
+        return busID;
+    }
+
+    public void setBusID(String busID) {
+        this.busID = busID;
     }
 }
