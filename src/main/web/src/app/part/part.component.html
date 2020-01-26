@@ -1,4 +1,10 @@
 <p-messages [(value)]="msgs"></p-messages>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Search" [(ngModel)]="name">
+  <div class="input-group-append">
+    <button class="btn btn-success" type="submit" (click)="find()">Go</button>
+  </div>
+</div>
 <p-table [value]="parts" [columns]="cols">
   <ng-template pTemplate="header" let-columns>
     <tr>
