@@ -40,14 +40,15 @@ public class PartController {
     }
     @PostMapping(value="/create")
     public Result createPart(@RequestParam String type,
-                           @RequestParam String name,
-                           @RequestParam Long rev){
+                             @RequestParam String name,
+                             @RequestParam Long quantity){
 
         Part newPart = new Part();
         newPart.setName(name);
         newPart.setType(type);
-        newPart.setRev(rev);
-
+        newPart.setRev(1L); // for new parts the rev starts from 1, in each update call, the rev increments by 1
+        newPart.setQuantity(quantity);
+        System.out.println("Part creation in progress12355544444");
         return this.partBOMService.createPart(newPart);
 
 

@@ -61,11 +61,9 @@ public class PartBOMService {
         TransactionStatus status = transactionManager.getTransaction(def);
         boolean error = false;
         try {
-
-            this.partRepository.save(newPart);
+            this.partRepository.createPart(newPart.getType(),newPart.getName(),newPart.getRev());
             result.setData(newPart);
             result.setMessage("OK");
-            error = true;
         }
         catch (Exception e)
         {
@@ -76,12 +74,14 @@ public class PartBOMService {
             error = true;
         }
         finally {
-            if(error)
+            if(error) {
                 transactionManager.rollback(status);
-            else
-                transactionManager.commit(status);
-        }
+            }
+            else {
 
+                transactionManager.commit(status);
+            }
+        }
         return result;
 
     }
