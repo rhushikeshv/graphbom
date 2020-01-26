@@ -1,6 +1,8 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.node:spring-node-neo4j:5.0.1.RELEASE">
-    <CLASSES />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/node/spring-node-neo4j/5.0.1.RELEASE/spring-node-neo4j-5.0.1.RELEASE.jar!/" />
+    </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/node/spring-node-neo4j/5.0.1.RELEASE/spring-node-neo4j-5.0.1.RELEASE-javadoc.jar!/" />
     </JAVADOC>

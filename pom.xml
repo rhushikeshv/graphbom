@@ -20,11 +20,11 @@
 	<repositories>
 		<repository>
 			<id>my-alternate-repository</id>
-			<url>http://central.maven.org/maven2</url>
+			<url>https://repo1.maven.org/maven2/</url>
 		</repository>
 		<repository>
 			<id>my spring libs</id>
-			<url>http://repo.spring.io/libs-release/</url>
+			<url>https://repo.spring.io/libs-release/</url>
 		</repository>
 		<repository>
 			<id>SparkPackagesRepo</id>
