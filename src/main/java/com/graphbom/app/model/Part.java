@@ -25,7 +25,7 @@ public class Part {
 
     @Id
     @GeneratedValue
-    private Long uuid;
+    private Long id;
 
     @JsonIgnore
     @Relationship(type="EBOM",direction = Relationship.OUTGOING)
@@ -45,7 +45,7 @@ public class Part {
     private Long reorderLevel;
     private String discontinued;
 
-    private String busID="";
+    private String uuid ="";
 
 
     @Version
@@ -71,11 +71,11 @@ public class Part {
 
 
     public Long getId() {
-        return uuid;
+        return id;
     }
 
     public void setId(Long id) {
-        this.uuid = id;
+        this.id = id;
     }
 
     public Long getLevel() {
@@ -219,11 +219,11 @@ public class Part {
         this.details.setDiscontinued(discontinued);
     }
 
-    public String getBusID() {
-        return busID;
+    public String getUuid() {
+        return uuid;
     }
 
-    public void setBusID(String busID) {
-        this.busID = busID;
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
     }
 }

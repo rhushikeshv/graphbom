@@ -2,5 +2,6 @@ export interface Part {
   name;
   description;
   level;
-  id
+  id;
+  uuid;
 }

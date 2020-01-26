@@ -28,6 +28,7 @@ export class PartComponent implements OnInit {
       { field: 'id', header: 'ID' },
       { field: 'rev', header: 'Revision' },
       { field: 'quantity', header: 'Quantity' },
+      { field: 'uuid', header: 'Business ID' },
     ];
   }
 
