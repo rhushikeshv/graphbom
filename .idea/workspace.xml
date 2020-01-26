@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/graphbom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/graphbom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/Part.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/PartDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/PartDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/repository/PartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/repository/PartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java" afterDir="false" />
-    </list>
+    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/model/Part.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="391">
+              <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4831#4832#0" expanded="true" />
@@ -108,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="84" column="39" lean-forward="true" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
               <folding>
                 <element signature="e#1198#1199#0" expanded="true" />
                 <element signature="e#1245#1246#0" expanded="true" />
@@ -209,9 +200,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphbom/app/repository/PartRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/Part.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/PartDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/graphbom/app/model/Part.java" />
       </list>
     </option>
   </component>
@@ -388,7 +379,7 @@
       <workItem from="1580041349738" duration="3560000" />
       <workItem from="1580045810324" duration="2091000" />
       <workItem from="1580051364301" duration="3683000" />
-      <workItem from="1580055131038" duration="4022000" />
+      <workItem from="1580055131038" duration="4363000" />
     </task>
     <task id="LOCAL-00001" summary="updated with basic spring boot project">
       <created>1571513555333</created>
@@ -495,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580047110039</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added uuid to the node and relationships, each uuid will uniquely identify the node and relationship object in neo4j graphdb">
+      <created>1580061230287</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580061230288</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37259000" />
+    <option name="totallyTimeSpent" value="37600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,11 +534,11 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="10" weight="0.32829374" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49893278" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49893278" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.503112" side_tool="true" weight="0.32683983" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49688795" visible="true" weight="0.3261339" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49688795" weight="0.3261339" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.32721382" />
       <window_info anchor="bottom" id="Problems" order="18" />
       <window_info anchor="bottom" id="TypeScript" order="19" weight="0.32936078" />
@@ -572,7 +570,8 @@
     <MESSAGE value="modified workspace" />
     <MESSAGE value="updated with structure creation" />
     <MESSAGE value="fixed the defect in part search" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the defect in part search" />
+    <MESSAGE value="added uuid to the node and relationships, each uuid will uniquely identify the node and relationship object in neo4j graphdb" />
+    <option name="LAST_COMMIT_MESSAGE" value="added uuid to the node and relationships, each uuid will uniquely identify the node and relationship object in neo4j graphdb" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -872,27 +871,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+          <folding>
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/model/Part.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        <state relative-caret-position="391">
+          <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4831#4832#0" expanded="true" />
             <element signature="e#4859#4860#0" expanded="true" />
             <element signature="e#4901#4902#0" expanded="true" />
             <element signature="e#4935#4936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="84" column="39" lean-forward="true" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-          <folding>
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
           </folding>
         </state>
       </provider>
