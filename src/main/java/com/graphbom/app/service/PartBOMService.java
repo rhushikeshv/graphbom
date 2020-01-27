@@ -3,6 +3,7 @@ package com.graphbom.app.service;
 import com.graphbom.app.model.EBOM;
 import com.graphbom.app.model.Part;
 import com.graphbom.app.output.Result;
+import com.graphbom.app.reader.BOMReader;
 import com.graphbom.app.repository.EBOMRepository;
 import com.graphbom.app.repository.PartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
+import java.io.InputStream;
 import java.util.*;
 
 @Service
@@ -155,7 +157,23 @@ public class PartBOMService {
 
     }
 
-    public Result<String,String> createBOM(List<EBOM> listOfRelationships,
+    public Result<String,String> importBOM(InputStream inputStream){
+
+        Result<String,String> result = new Result<>();
+        BOMReader reader = new BOMReader(inputStream);
+        try {
+            List<EBOM> listOfRels = reader.loadBOM();
+            result = createBOM(listOfRels,false);
+        } catch (Exception e) {
+            e.printStackTrace();
+            result.setMessage("FAIL");
+        }
+        return result;
+
+
+    }
+
+    private Result<String,String> createBOM(List<EBOM> listOfRelationships,
                                                  boolean biDirectional)
     {
         Result<String,String> result = new Result<>();

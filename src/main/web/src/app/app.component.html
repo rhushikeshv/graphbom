@@ -5,26 +5,20 @@
   <!-- Sidebar -->
 
   <div class="bg-light border-right" id="sidebar-wrapper">
-    <div class="sidebar-heading">Graph BOM </div>
+    <div class="sidebar-heading">Semantic BOM</div>
     <p-accordion [multiple]="true">
-      <p-accordionTab header="BOM">
-        <a routerLink="/ebom"
-           class="list-group-item list-group-item-action bg-light">
-          EBOM</a>
-        <a routerLink="/part"
-           class="list-group-item list-group-item-action bg-light">
-          Parts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">MBOM</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">CADBOM</a>
+      <p-accordionTab header="EBOM">
+        <a routerLink="/ebom" class="list-group-item list-group-item-action bg-light">Search</a>
+        <a routerLink="#" class="list-group-item list-group-item-action bg-light">Import</a>
       </p-accordionTab>
-      <p-accordionTab header="Drawings">
-        Content 2
-      </p-accordionTab>
-      <p-accordionTab header="Documents">
-        Content 3
+      <p-accordionTab header="Part">
+        <a routerLink="/part" class="list-group-item list-group-item-action bg-light">Search</a>
+        <a routerLink="#" class="list-group-item list-group-item-action bg-light">Create</a>
+        <a routerLink="#" class="list-group-item list-group-item-action bg-light">Where Used Parents</a>
       </p-accordionTab>
     </p-accordion>
   </div>
+
   <!-- /#sidebar-wrapper -->
 
   <!-- Page Content -->

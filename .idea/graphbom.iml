@@ -436,5 +436,6 @@
     <orderEntry type="library" name="Maven: org.neo4j:neo4j-concurrent:3.5.12" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.collections:eclipse-collections:9.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.collections:eclipse-collections-api:9.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:17.0.0" level="project" />
   </component>
 </module>
