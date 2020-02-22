@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/BOMReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/engine.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/graphbom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/graphbom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/app.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="Blower.iam" />
+    <ignored path="Engine MKII.iam" />
+    <ignored path="Suspension.iam" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="165" column="47" selection-start-line="165" selection-start-column="47" selection-end-line="165" selection-end-column="47" />
-              <folding>
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -58,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/repository/PartRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="272">
               <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
             </state>
           </provider>
@@ -67,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/PartReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="680">
               <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
             </state>
           </provider>
@@ -76,12 +67,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/BOMReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="510">
               <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="918">
               <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/src/app/ebom/ebom.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="527">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -123,24 +112,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/src/app/ebom/ebom.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="289">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#1#42#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/engine.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -265,166 +242,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ebom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphbom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graphbom" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -572,7 +392,12 @@
       <workItem from="1580132944008" duration="27000" />
       <workItem from="1580136748534" duration="2822000" />
       <workItem from="1580140586906" duration="2057000" />
-      <workItem from="1580145412915" duration="4996000" />
+      <workItem from="1580145412915" duration="5283000" />
+      <workItem from="1580235615501" duration="104000" />
+      <workItem from="1580403926896" duration="64000" />
+      <workItem from="1581005373383" duration="12000" />
+      <workItem from="1581348598955" duration="16000" />
+      <workItem from="1581789190454" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="updated with basic spring boot project">
       <created>1571513555333</created>
@@ -707,11 +532,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580062553866</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Import BOM functionality complete">
+      <created>1580151234982</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1580151234982</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48766000" />
+    <option name="totallyTimeSpent" value="49261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,9 +556,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25987193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27534685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -744,15 +575,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026681" side_tool="true" weight="0.32829374" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.325054" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.32327586" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Graph Database Console" order="10" weight="0.32829374" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49733192" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49733192" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.503112" side_tool="true" weight="0.32683983" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32829374" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49688795" visible="true" weight="0.3261339" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49688795" weight="0.3261339" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.32721382" />
       <window_info anchor="bottom" id="Problems" order="18" />
       <window_info anchor="bottom" id="TypeScript" order="19" weight="0.32936078" />
@@ -786,7 +617,8 @@
     <MESSAGE value="fixed the defect in part search" />
     <MESSAGE value="added uuid to the node and relationships, each uuid will uniquely identify the node and relationship object in neo4j graphdb" />
     <MESSAGE value="UUID is shown in the part search results" />
-    <option name="LAST_COMMIT_MESSAGE" value="UUID is shown in the part search results" />
+    <MESSAGE value="Import BOM functionality complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import BOM functionality complete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1046,32 +878,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/output/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/engine.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/repository/PartRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/PartReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/BOMReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
           <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/engine.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/PartReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+        <state relative-caret-position="918">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,60 +929,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/src/app/ebom/ebom.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="527">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/reader/BOMReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/src/app/ebom/ebom.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#1#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/repository/PartRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/output/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/rest/PartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+        <state relative-caret-position="391">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/graphbom/app/service/PartBOMService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="165" column="47" selection-start-line="165" selection-start-column="47" selection-end-line="165" selection-end-column="47" />
-          <folding>
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
           </folding>
         </state>
       </provider>
