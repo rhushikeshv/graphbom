@@ -16,7 +16,7 @@ import { EbomComponent } from './ebom/ebom.component';
 import {TreeTableModule} from 'primeng/treetable';
 import {EBOMService} from './ebom/ebom.service';
 
-import {AccordionModule, FileUploadModule, MessageService} from 'primeng/primeng';
+import {AccordionModule, FileUploadModule, MessageService, PanelModule} from 'primeng/primeng';
 
 import {ProgressBarModule} from 'primeng/primeng';
 
@@ -24,6 +24,7 @@ import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
 import {FormsModule} from "@angular/forms";
 import { FileuploadComponent } from './fileupload/fileupload.component';
+import { PartCrudComponent } from './part-crud/part-crud.component';
 
 // @ts-ignore
 @NgModule({
@@ -31,7 +32,8 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
     AppComponent,
     PartComponent,
     EbomComponent,
-    FileuploadComponent
+    FileuploadComponent,
+    PartCrudComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +49,7 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
     MessageModule,
     FormsModule,
     FileUploadModule,
+    PanelModule,
   ],
   providers: [EBOMService, PartService, HttpClient,MessageService],
   bootstrap: [AppComponent]

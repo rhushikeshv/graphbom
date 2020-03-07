@@ -1,7 +1,7 @@
 export interface Part {
-  name;
-  description;
-  level;
-  id;
-  uuid;
+  name?:string;
+  description?:string;
+  level?:string;
+  id?:string;
+  uuid?:string;
 }
