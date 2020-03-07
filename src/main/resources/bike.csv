@@ -1,0 +1,9 @@
+Bike	Part	1	1	EBOM	1	FrameAssembly	Part	1	1
+Bike	Part	1	1	EBOM	1	Seat	Part	1	1
+Bike	Part	1	1	EBOM	1	Handle Bars	Part	1	1
+FrameAssembly	Part	1	1	EBOM	2	Wheel	Part	1	2
+FrameAssembly	Part	1	1	EBOM	1	Frame	Part	1	1
+Wheel	Part	1	1	EBOM	25	Spokes	Part	1	25
+Wheel	Part	1	1	EBOM	2	Tire Rim	Part	1	2
+Frame	Part	1	1	EBOM	1	Alumunium Tubing	Part	1	1
+Frame	Part	1	1	EBOM	1	Paint	Part	1	1
