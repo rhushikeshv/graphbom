@@ -1,0 +1,1 @@
+MATCH p=(n:Part{name:'Bike',type:'Part',rev:1})-[:EBOM*]->(m)  WITH collect(p) AS ps CALL apoc.convert.toTree(ps) YIELD value as data RETURN data;

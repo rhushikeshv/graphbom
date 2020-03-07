@@ -270,7 +270,7 @@ public class PartBOMService {
                             System.out.println("====name is ===" + name);
                         }
                     }
-                    if(key.equals("ebom.quantity")){
+                    if(key.equals("quantity")){
                         Object quantity = (Object)entry.getValue();
                         if(quantity instanceof Long){
                             topPart.setQuantity((Long)quantity);

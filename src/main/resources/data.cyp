@@ -22,6 +22,8 @@ create(wheel)-[:EBOM{quantity:25}]->(spokes)
 create(wheel)-[:EBOM{quantity:2}]->(tirerim)
 create(frame)-[:EBOM{quantity:'3 ft'}]->(aluminiumtubing)
 create(frame)-[:EBOM{quantity:'0.5 gal'}]->(paint)
+
+
 create(spokes2:Part{name:'Spokes',level:4,description:'component',
                     type:'Part',rev:2})
 create(spokes3:Part{name:'Spokes',level:4,description:'component',
@@ -38,3 +40,5 @@ create(spokes4)-[:REVISION]->(spokes5)
 
 
 create(Bolts:Part{name:'Bolts',level:1,description:'Bolts',rev:1,quantity:200,unit_price:18,units_in_stock:39,units_on_order:0,reorder_level:10,discontinued:'FALSE',type:'Part'})
+
+MATCH p=(n:Part{ name:{name},type:{type},rev:{rev}})-[:EBOM*]->(m)  WITH collect(p) AS ps CALL apoc.convert.toTree(ps) YIELD value as data RETURN data;

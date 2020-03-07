@@ -38,8 +38,12 @@ public class BOMReader {
         String fromNodeName = datavalue[0];
         String fromNodeType = datavalue[1];
         String fromNodeRev = datavalue[2];
-        System.out.println("the node rev is " + fromNodeRev);
         String fromNodeQuantity = datavalue[3];
+
+        System.out.println("The from part name is " + fromNodeName);
+        System.out.println("The from part type is " + fromNodeType);
+        System.out.println("The from part rev is " + fromNodeRev);
+        System.out.println("The from part qty is " + fromNodeQuantity);
 
         Part fromNode = new Part();
         fromNode.setName(fromNodeName);
