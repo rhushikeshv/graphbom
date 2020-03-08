@@ -5,6 +5,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Level</th>
+      <th>Quantity</th>
       <th>ID</th>
       <th>UUID</th>
       <th>Action</th>
@@ -45,6 +46,16 @@
       <td pEditableColumn>
         <p-cellEditor>
           <ng-template pTemplate="input">
+            <input pInputText type="text" [(ngModel)]="rowData.quantity">
+          </ng-template>
+          <ng-template pTemplate="output">
+            {{rowData.quantity}}
+          </ng-template>
+        </p-cellEditor>
+      </td>
+      <td pEditableColumn>
+        <p-cellEditor>
+          <ng-template pTemplate="input">
             <input pInputText type="text" [(ngModel)]="rowData.id">
           </ng-template>
           <ng-template pTemplate="output">
@@ -67,7 +78,8 @@
           <ng-template pTemplate="input">
           </ng-template>
           <ng-template pTemplate="output">
-            <i class="fa fa-trash fa-2x" (click)="onDeletePart(rowData)"> </i>
+            <i class="fa fa-plus-circle fa-2x" (click)="onAddPart(rowData)"> </i>
+            <i class="fa fa-save fa-2x" (click)="onSave(rowData)"> </i>
           </ng-template>
         </p-cellEditor>
       </td>

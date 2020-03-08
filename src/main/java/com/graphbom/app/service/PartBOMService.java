@@ -63,7 +63,15 @@ public class PartBOMService {
         TransactionStatus status = transactionManager.getTransaction(def);
         boolean error = false;
         try {
-            newPart = this.partRepository.createPart(newPart.getType(),newPart.getName(),newPart.getRev(),newPart.getQuantity());
+            Part existingPart = this.partRepository.findPartByTNR(newPart.getType(),newPart.getName(),newPart.getRev());
+            if(existingPart==null)
+            {
+                newPart.setUuid(UUID.randomUUID().toString());
+                this.partRepository.save(newPart);
+            }
+            else{
+                newPart = existingPart;
+            }
             result.setData(newPart);
             result.setMessage("OK");
         }
@@ -81,8 +89,6 @@ public class PartBOMService {
             }
             else {
                 transactionManager.commit(status);
-                String uuid = this.partRepository.findPartUUID(newPart.getId());
-                newPart.setUuid(uuid);
             }
         }
         return result;
@@ -90,22 +96,45 @@ public class PartBOMService {
     }
     public Result<String,Part> updatePart(Part part){
 
-        if(part.getId()==null){
-            Result<String,Part> outcome = new Result<>();
-            outcome.setData(part);
-            outcome.setMessage("FAIL");
-            return outcome;
+        Result<String,Part> result = new Result<>();
+        TransactionDefinition def = new DefaultTransactionDefinition();
+        TransactionStatus status = transactionManager.getTransaction(def);
+        boolean error = false;
+        try {
+
+            Part existingPart = this.partRepository.findPartByUUID(part.getUuid());
+            System.out.println("==Found existing part ===" + existingPart.getUuid());
+            existingPart.setQuantity(part.getQuantity());
+            existingPart.setName(part.getName());
+            existingPart.setDescription(part.getDescription());
+            existingPart.setLevel(part.getLevel());
+            this.partRepository.save(existingPart, 1);
+            result.setMessage("OK");
+            result.setData(part);
+
         }
-        else{
-            return this.createPart(part);
+        catch(Exception exception){
+            System.out.println("the exception is " + exception.getMessage());
+            transactionManager.rollback(status);
+            result.setData(part);
+            result.setMessage("FAIL");
+            error = true;
+        }
+        finally {
+
+            if(error) {
+                transactionManager.rollback(status);
+            }
+            else {
+                transactionManager.commit(status);
+            }
         }
 
+        return result;
     }
 
     public List<Map<String, EBOM>> getEBOMRelationship(Part startNode, Part endNode){
 
-        System.out.println("the start node name is " + startNode.getName());
-        System.out.println("the end node name is " + endNode.getName());
 
         return this.partRepository.existsEBOMRelationship(startNode.getName(),endNode.getName());
     }
@@ -187,33 +216,42 @@ public class PartBOMService {
                 Part start = ebom.getStartNode();
                 Part end   = ebom.getEndNode();
 
-                start = this.partRepository.createPart(start.getType(),
-                        start.getName(),start.getRev(),start.getQuantity());
-
-                end = this.partRepository.createPart(end.getType(),end.getName(),
-                    end.getRev(),end.getQuantity());
-
                 if(biDirectional) {
 
-                    ebom.setStartNode(start);
-                    ebom.setEndNode(end);
-
-                    System.out.println("Saving ebom " + ebom.getName());
-                    this.ebomRepository.save(ebom);
-
-                    EBOM ebomReverse = new EBOM(end,start);
-                    ebomReverse.setName(ebom.getName());
-                    ebomReverse.setVersion(ebom.getVersion());
-                    ebomReverse.setQuantity(ebom.getQuantity());
-
-                    this.ebomRepository.save(ebomReverse);
+//                    ebom.setStartNode(start);
+//                    ebom.setEndNode(end);
+//
+//                    System.out.println("Saving ebom " + ebom.getName());
+//                    this.ebomRepository.save(ebom);
+//
+//                    EBOM ebomReverse = new EBOM(end,start);
+//                    ebomReverse.setName(ebom.getName());
+//                    ebomReverse.setVersion(ebom.getVersion());
+//                    ebomReverse.setQuantity(ebom.getQuantity());
+//
+//                    this.partRepository.save(start);
+//                    this.partRepository.save(end);
+//                    this.ebomRepository.save(ebomReverse);
 
 
 
                 }
                 else {
-                    ebom.setStartNode(start);
-                    ebom.setEndNode(end);
+                    Part startNode = this.partRepository.findPartByTNR(start.getType(),start.getName(),start.getRev());
+                    if(startNode==null){
+                        start.setUuid(UUID.randomUUID().toString());
+                        startNode = this.partRepository.save(start);
+                    }
+
+
+                    Part endNode = this.partRepository.findPartByTNR(end.getType(),end.getName(),end.getRev());
+                    if(endNode==null){
+                        end.setUuid(UUID.randomUUID().toString());
+                        endNode = this.partRepository.save(end);
+                    }
+                    ebom.setStartNode(startNode);
+                    ebom.setEndNode(endNode);
+
                     this.ebomRepository.save(ebom);
 
                 }

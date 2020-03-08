@@ -1,17 +1,17 @@
 // relationship name should be in upper case like EBOM, REVISION_LIKE
-create(bike:Part {name:'Bike',level:1,description:'top',type:'Part',rev:1})
+create(bike:Part {name:'Bike',level:1,description:'top',type:'Part',partNumber:1})
 create(handlebars:Part{name:'Handle Bars',level:2,description:'component',
-                       type:'Part',rev:1})
+                       type:'Part',partNumber:1})
 create(frameassembly:Part{name:'FrameAssembly',level:2,
-                          description:'sub-assembly',type:'Part',rev:1})
-create(seat:Part{name:'Seat',level:2,description:'component',type:'Part',rev:1})
-create(frame:Part{name:'Frame',level:3,description:'sub-assembly',type:'Part',rev:1})
-create(wheel:Part{name:'Wheel',level:3,description:'sub-assembly',type:'Part',rev:1})
-create(spokes:Part{name:'Spokes',level:4,description:'component',type:'Part',rev:1})
-create(tirerim:Part{name:'Tire Rim',level:4,description:'component',type:'Part',rev:1})
+                          description:'sub-assembly',type:'Part',partNumber:1})
+create(seat:Part{name:'Seat',level:2,description:'component',type:'Part',partNumber:1})
+create(frame:Part{name:'Frame',level:3,description:'sub-assembly',type:'Part',partNumber:1})
+create(wheel:Part{name:'Wheel',level:3,description:'sub-assembly',type:'Part',partNumber:1})
+create(spokes:Part{name:'Spokes',level:4,description:'component',type:'Part',partNumber:1})
+create(tirerim:Part{name:'Tire Rim',level:4,description:'component',type:'Part',partNumber:1})
 create(aluminiumtubing:Part{name:'Aluminium Tubing',level:4,
-                            description:'component',type:'Part',rev:1})
-create(paint:Part{name:'Paint',level:4,description:'component',type:'Part',rev:1})
+                            description:'component',type:'Part',partNumber:1})
+create(paint:Part{name:'Paint',level:4,description:'component',type:'Part',partNumber:1})
 
 create(bike)-[:EBOM {quantity:1}]->(frameassembly)
 create(bike)-[:EBOM {quantity:1}]->(seat)
@@ -25,13 +25,13 @@ create(frame)-[:EBOM{quantity:'0.5 gal'}]->(paint)
 
 
 create(spokes2:Part{name:'Spokes',level:4,description:'component',
-                    type:'Part',rev:2})
+                    type:'Part',partNumber:2})
 create(spokes3:Part{name:'Spokes',level:4,description:'component',
-                    type:'Part',rev:3})
+                    type:'Part',partNumber:3})
 create(spokes4:Part{name:'Spokes',level:4,description:'component',
-                    type:'Part',rev:4})
+                    type:'Part',partNumber:4})
 create(spokes5:Part{name:'Spokes',level:4,description:'component',
-                    type:'Part',rev:5})
+                    type:'Part',partNumber:5})
 
 create(spokes)-[:REVISION]->(spokes2)
 create(spokes2)-[:REVISION]->(spokes3)
@@ -39,6 +39,6 @@ create(spokes3)-[:REVISION]->(spokes4)
 create(spokes4)-[:REVISION]->(spokes5)
 
 
-create(Bolts:Part{name:'Bolts',level:1,description:'Bolts',rev:1,quantity:200,unit_price:18,units_in_stock:39,units_on_order:0,reorder_level:10,discontinued:'FALSE',type:'Part'})
+create(Bolts:Part{name:'Bolts',level:1,description:'Bolts',partNumber:1,quantity:200,unit_price:18,units_in_stock:39,units_on_order:0,reorder_level:10,discontinued:'FALSE',type:'Part'})
 
-MATCH p=(n:Part{ name:{name},type:{type},rev:{rev}})-[:EBOM*]->(m)  WITH collect(p) AS ps CALL apoc.convert.toTree(ps) YIELD value as data RETURN data;
+MATCH p=(n:Part{ name:{name},type:{type},partNumber:{partNumber}})-[:EBOM*]->(m)  WITH collect(p) AS ps CALL apoc.convert.toTree(ps) YIELD value as data RETURN data;

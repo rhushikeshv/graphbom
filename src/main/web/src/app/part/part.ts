@@ -4,4 +4,5 @@ export interface Part {
   level?:string;
   id?:string;
   uuid?:string;
+  quantity?:string;
 }

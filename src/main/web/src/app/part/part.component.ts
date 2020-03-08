@@ -37,7 +37,6 @@ export class PartComponent implements OnInit {
     while(this.msgs.length > 0){ // clear all  messages if any
       this.msgs.pop();
     }
-    console.log(' the part name to search is ' + this.name);
     if (this.name === "*" || this.name!=='') {
       this.partService.getParts().then(res => {
         this.parts = res.data;

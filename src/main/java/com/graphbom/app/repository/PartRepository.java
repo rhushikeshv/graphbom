@@ -40,17 +40,19 @@ public interface PartRepository extends Neo4jRepository<Part,Long> {
                         @Param("rev")Long rev);
 
 
-    @Query("MERGE node=(n:Part{name:{name},type:{type},rev:{rev},quantity:{quantity}}) return node")
-    Part createPart(@Param("type") String type,
+    @Query("MATCH node=(n:Part{name:{name},type:{type},rev:{rev}}) return node")
+    Part findPartByTNR(@Param("type") String type,
                     @Param("name") String name,
-                    @Param("rev")  Long rev,
-                    @Param("quantity")Long quantity);
+                    @Param("rev")  Long rev
+                    );
 
     @Query("MATCH ebom = ( (:Part {name:{startNodeName} })-[r:EBOM]-(:Part {name:{endNodeName}})) return ebom")
     List<Map<String, EBOM>> existsEBOMRelationship(@Param("startNodeName") String startNodeName,
                                                    @Param("endNodeName") String endNodeName);
-    @Query("MATCH (n) WHERE id(n)={id} return n.uuid")
-    String findPartUUID(@Param("id") Long id);
+
+    @Query("MATCH (n:Part{uuid:{uuid}}) return n")
+    Part findPartByUUID(@Param("uuid") String uuid);
+
 
 
 

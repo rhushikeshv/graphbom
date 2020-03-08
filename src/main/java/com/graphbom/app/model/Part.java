@@ -49,7 +49,7 @@ public class Part {
 
 
     @Version
-    private Long version=1L; //optimistic locking
+    private Long version; //optimistic locking
 
     @JsonProperty("data")
     @Transient

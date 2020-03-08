@@ -2,7 +2,6 @@ package com.graphbom.app.reader;
 
 import com.google.common.io.ByteStreams;
 import com.google.common.io.CharSource;
-import com.google.common.io.Files;
 import com.graphbom.app.model.EBOM;
 import com.graphbom.app.model.Part;
 
@@ -40,10 +39,6 @@ public class BOMReader {
         String fromNodeRev = datavalue[2];
         String fromNodeQuantity = datavalue[3];
 
-        System.out.println("The from part name is " + fromNodeName);
-        System.out.println("The from part type is " + fromNodeType);
-        System.out.println("The from part rev is " + fromNodeRev);
-        System.out.println("The from part qty is " + fromNodeQuantity);
 
         Part fromNode = new Part();
         fromNode.setName(fromNodeName);

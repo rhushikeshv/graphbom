@@ -2,7 +2,6 @@ package com.graphbom.app.rest;
 
 import com.graphbom.app.model.Part;
 import com.graphbom.app.output.Result;
-import com.graphbom.app.reader.BOMReader;
 import com.graphbom.app.service.PartBOMService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.validation.constraints.NotNull;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -47,10 +45,6 @@ public class PartController {
                              @RequestParam String name,
                              @RequestParam Long quantity){
 
-        System.out.println("the type is " + type);
-        System.out.println("the name is " + name);
-        System.out.println("the quantity is " + quantity);
-
         Part newPart = new Part();
         newPart.setName(name);
         newPart.setType(type);
@@ -58,6 +52,11 @@ public class PartController {
         newPart.setQuantity(quantity);
         return this.partBOMService.createPart(newPart);
 
+
+    }
+    @PutMapping(value="/updatepart")
+    public Result updatePart(@RequestBody Part part){
+        return this.partBOMService.updatePart(part);
 
     }
     @PostMapping(value="/uploadFile")
