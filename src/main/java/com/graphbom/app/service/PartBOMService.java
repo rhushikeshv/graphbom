@@ -68,17 +68,18 @@ public class PartBOMService {
             {
                 newPart.setUuid(UUID.randomUUID().toString());
                 this.partRepository.save(newPart);
+                result.setData(newPart);
+                result.setMessage("OK");
             }
             else{
-                newPart = existingPart;
+                result.setData(newPart);
+                result.setMessage("FAIL"); // part already exists, cannot create new one.
             }
-            result.setData(newPart);
-            result.setMessage("OK");
+
         }
         catch (Exception e)
         {
             transactionManager.rollback(status);
-            newPart = new Part();
             result.setData(newPart);
             result.setMessage("FAIL");
             error = true;
@@ -101,9 +102,7 @@ public class PartBOMService {
         TransactionStatus status = transactionManager.getTransaction(def);
         boolean error = false;
         try {
-
             Part existingPart = this.partRepository.findPartByUUID(part.getUuid());
-            System.out.println("==Found existing part ===" + existingPart.getUuid());
             existingPart.setQuantity(part.getQuantity());
             existingPart.setName(part.getName());
             existingPart.setDescription(part.getDescription());
@@ -114,7 +113,6 @@ public class PartBOMService {
 
         }
         catch(Exception exception){
-            System.out.println("the exception is " + exception.getMessage());
             transactionManager.rollback(status);
             result.setData(part);
             result.setMessage("FAIL");

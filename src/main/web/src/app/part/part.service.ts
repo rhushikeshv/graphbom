@@ -16,6 +16,10 @@ export class PartService {
    console.log(part);
     return this.http.put<any>('/bom/services/partservice/updatepart',part).toPromise().then(res=>res).then(data=>data);
   }
+  createPart(part:Part){
+    console.log(part);
+    return this.http.post<any>('/bom/services/partservice/createpart',part).toPromise().then(res=>res).then(data=>data);
+  }
 }
 
 

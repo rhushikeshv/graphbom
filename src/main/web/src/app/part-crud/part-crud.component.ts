@@ -36,26 +36,51 @@ export class PartCrudComponent implements OnInit {
 
   }
 
-  onDeletePart(rowData) {
-    window.alert(rowData.name);
-  }
 
-  onAddPart(rowData) {
 
+  onAddPart() {
+      let p:Part = {
+        name:'',
+        description:'',
+        level:'',
+        id:'',
+        uuid:'',
+        quantity:''
+      };
+      this.parts.push(p);
   }
 
   onSave(rowData) {
-    this.partService.updatePart(rowData).then(res => {
-      this.parts = res.data;
-      if (res.message === 'FAIL') {
-        this.msgs.push({
-          severity: 'error', summary: res.message, detail: 'Failed to update Part '
-        });
-      } else {
-        this.msgs.push({
-          severity: 'success', summary: res.message, detail: 'Part updated successfully'
-        });
-      }
-    });
+    window.alert(rowData.uuid);
+    if(rowData.uuid) {
+      this.partService.updatePart(rowData).then(res => {
+        this.parts = res.data;
+        if (res.message === 'FAIL') {
+          this.msgs.push({
+            severity: 'error', summary: res.message, detail: 'Failed to update Part '
+          });
+        } else {
+          this.msgs.push({
+            severity: 'success', summary: res.message, detail: 'Part updated successfully'
+          });
+        }
+      });
+    }
+    else {
+      rowData.type='Part';
+      this.partService.createPart(rowData).then(res => {
+        this.parts = res.data;
+        if (res.message === 'FAIL') {
+          this.msgs.push({
+            severity: 'error', summary: res.message, detail: 'Failed to create Part '
+          });
+        } else {
+          this.msgs.push({
+            severity: 'success', summary: res.message, detail: 'Part created successfully'
+          });
+        }
+      });
+    }
+
   }
 }

@@ -5,4 +5,5 @@ export interface Part {
   id?:string;
   uuid?:string;
   quantity?:string;
+  type?:string
 }

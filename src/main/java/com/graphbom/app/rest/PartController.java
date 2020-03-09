@@ -40,17 +40,10 @@ public class PartController {
                                            @RequestParam(name="rev") Long rev){
         return partBOMService.loadBOM(type,name,rev);
     }
-    @PostMapping(value="/create")
-    public Result createPart(@RequestParam String type,
-                             @RequestParam String name,
-                             @RequestParam Long quantity){
+    @PostMapping(value="/createpart")
+    public Result createPart(@RequestBody Part part){
 
-        Part newPart = new Part();
-        newPart.setName(name);
-        newPart.setType(type);
-        newPart.setRev(1L); // for new parts the rev starts from 1, in each update call, the rev increments by 1
-        newPart.setQuantity(quantity);
-        return this.partBOMService.createPart(newPart);
+        return this.partBOMService.createPart(part);
 
 
     }
