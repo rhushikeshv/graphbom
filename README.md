@@ -1,9 +1,16 @@
 # Use cases :
-Import BOM
+# Import BOM
 ![Alt text](/BOM_Import.png)
 
-Search and Display BOM structure
+# Search and Display BOM structure
 ![Alt text](/BOM_Structure.png)
+
+
+# Part Search
+![Alt text](/Part_Search.png)
+
+# Part Management 
+![Alt text](/Part_Management.png)
 
 # Getting Started
 
