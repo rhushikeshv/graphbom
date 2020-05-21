@@ -1,3 +1,7 @@
+# Use cases :
+Import BOM
+![Alt text](/BOM_Import.png)
+
 # Getting Started
 
 ### Guides
