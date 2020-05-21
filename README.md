@@ -2,6 +2,9 @@
 Import BOM
 ![Alt text](/BOM_Import.png)
 
+Search and Display BOM structure
+![Alt text](/BOM_Structure.png)
+
 # Getting Started
 
 ### Guides
