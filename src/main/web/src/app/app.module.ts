@@ -16,9 +16,14 @@ import { EbomComponent } from './ebom/ebom.component';
 import {TreeTableModule} from 'primeng/treetable';
 import {EBOMService} from './ebom/ebom.service';
 
-import {AccordionModule, FileUploadModule, MessageService, PanelModule} from 'primeng/primeng';
 
-import {ProgressBarModule} from 'primeng/primeng';
+import { MessageService } from 'primeng/api';
+
+import {AccordionModule} from "primeng/accordion";
+import {FileUploadModule} from "primeng/fileupload";
+import {PanelModule} from "primeng/panel";
+
+import{ProgressBarModule} from "primeng/progressbar";
 
 import {MessagesModule} from 'primeng/messages';
 import {MessageModule} from 'primeng/message';
