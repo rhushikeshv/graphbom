@@ -32,25 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/graphbom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/graphbom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_node_neo4j_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_node_spring_node_neo4j_5_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/ebom/ebom.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/ebom/ebom.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/fileupload/fileupload.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/fileupload/fileupload.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/part-crud/part-crud.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/part-crud/part-crud.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/src/app/part/part.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/app/part/part.component.spec.ts" afterDir="false" />
-    </list>
+    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +137,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RebelAgentSelection">
@@ -280,7 +262,7 @@
       <workItem from="1583581373994" duration="15460000" />
       <workItem from="1583638167815" duration="14311000" />
       <workItem from="1583768418575" duration="1106000" />
-      <workItem from="1604148628585" duration="5133000" />
+      <workItem from="1604148628585" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="updated with basic spring boot project">
       <created>1571513555333</created>
@@ -522,10 +504,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="495" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604153352472" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1604153659571">
+    <state x="469" y="179" key="SettingsEditor" timestamp="1604154722316">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604153659571" />
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604154722316" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1604151792537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
