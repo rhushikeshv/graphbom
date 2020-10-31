@@ -32,7 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="" />
+    <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="Angular 10, PrimeNG -10 upgrade" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,7 +262,7 @@
       <workItem from="1583581373994" duration="15460000" />
       <workItem from="1583638167815" duration="14311000" />
       <workItem from="1583768418575" duration="1106000" />
-      <workItem from="1604148628585" duration="5621000" />
+      <workItem from="1604148628585" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary="updated with basic spring boot project">
       <created>1571513555333</created>
@@ -439,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583652390808</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Angular 10, PrimeNG -10 upgrade">
+      <created>1604154833634</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604154833634</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -485,7 +492,8 @@
     <MESSAGE value="Part Management table added" />
     <MESSAGE value="bike csv to import the bike bom as the graph/semantic bom" />
     <MESSAGE value="Part crud is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part crud is complete" />
+    <MESSAGE value="Angular 10, PrimeNG -10 upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular 10, PrimeNG -10 upgrade" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1878" height="495" key="GridCell.Tab.0.bottom" timestamp="1604153352473">
@@ -508,6 +516,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604154722316" />
+    <state x="560" y="267" key="Vcs.Push.Dialog.v2" timestamp="1604154844009">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604154844009" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1604151792537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
