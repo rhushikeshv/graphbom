@@ -17,7 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49469c96-ccbb-4429-9407-de2b7db26a0a" name="Default Changelist" comment="Angular 10, PrimeNG -10 upgrade">
+      <change beforePath="$PROJECT_DIR$/.idea/GraphDatabaseSupport_DataSourcesState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraphDatabaseSupport_DataSourcesState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -249,6 +251,7 @@
       <workItem from="1583638167815" duration="14311000" />
       <workItem from="1583768418575" duration="1106000" />
       <workItem from="1604148628585" duration="7001000" />
+      <workItem from="1604213979042" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="updated with basic spring boot project">
       <created>1571513555333</created>
@@ -469,6 +472,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -494,22 +498,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Angular 10, PrimeNG -10 upgrade" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="495" key="GridCell.Tab.0.bottom" timestamp="1604153352473">
+    <state x="448" y="121" key="#Project_Structure" timestamp="1604203481002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="495" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604153352473" />
-    <state width="1878" height="495" key="GridCell.Tab.0.center" timestamp="1604153352472">
+    <state x="448" y="121" key="#Project_Structure/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604203481002" />
+    <state width="1878" height="494" key="GridCell.Tab.0.bottom" timestamp="1604204308579">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="495" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604153352472" />
-    <state width="1878" height="495" key="GridCell.Tab.0.left" timestamp="1604153352472">
+    <state width="1878" height="494" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308579" />
+    <state width="1878" height="494" key="GridCell.Tab.0.center" timestamp="1604204308578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="495" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604153352472" />
-    <state width="1878" height="495" key="GridCell.Tab.0.right" timestamp="1604153352472">
+    <state width="1878" height="494" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308578" />
+    <state width="1878" height="494" key="GridCell.Tab.0.left" timestamp="1604204308578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="495" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604153352472" />
+    <state width="1878" height="494" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308578" />
+    <state width="1878" height="494" key="GridCell.Tab.0.right" timestamp="1604204308579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="494" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308579" />
+    <state width="1878" height="494" key="GridCell.Tab.1.bottom" timestamp="1604204308580">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="494" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308580" />
+    <state width="1878" height="494" key="GridCell.Tab.1.center" timestamp="1604204308579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="494" key="GridCell.Tab.1.center/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308579" />
+    <state width="1878" height="494" key="GridCell.Tab.1.left" timestamp="1604204308579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="494" key="GridCell.Tab.1.left/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308579" />
+    <state width="1878" height="494" key="GridCell.Tab.1.right" timestamp="1604204308579">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="494" key="GridCell.Tab.1.right/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604204308579" />
     <state x="781" y="249" key="RollbackChangesDialog" timestamp="1604155562484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -526,92 +550,5 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/-1280.0.1280.1024@0.0.1920.1080" timestamp="1604151792537" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JRebel|graphbom</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.springframework.node:spring-node-neo4j:5.0.1.RELEASE</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
