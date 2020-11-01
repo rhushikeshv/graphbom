@@ -80,4 +80,4 @@ dbms.security.procedures.unrestricted=apoc.*
 #1 Upgrade UI framework ( PrimeNG 10)
 
 Search and Display BOM (New UI)
-![Alt text](/BOM_Structure.png)
+![Alt text](/UI_Framework.png)
