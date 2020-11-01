@@ -15,10 +15,6 @@
     </facet>
     <facet type="JRebel" name="JRebel">
       <configuration>
-        <option name="deleteUnindexed" value="false" />
-        <option name="httpAuthEnabled" value="false" />
-        <option name="httpPassword" />
-        <option name="httpUsername" />
         <option name="ideModuleStorage">
           <map>
             <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
@@ -26,13 +22,6 @@
             <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
           </map>
         </option>
-        <option name="masterModuleName" />
-        <option name="overrideStandardXmlFolder" value="false" />
-        <option name="remotingEnabled" value="false" />
-        <option name="secure" value="true" />
-        <option name="url" />
-        <option name="useRelativePathsInXml" value="false" />
-        <option name="xmlDir" />
       </configuration>
     </facet>
   </component>
@@ -49,7 +38,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-node-neo4j:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jersey:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.0.2.RELEASE" level="project" />
@@ -120,7 +108,6 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-devtools:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.node:spring-node-neo4j:5.0.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.neo4j:neo4j-ogm-test:3.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.neo4j:neo4j-ogm-http-driver:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
@@ -241,7 +228,7 @@
     <orderEntry type="module-library">
       <library name="Maven: jdk.tools:jdk.tools:1.6">
         <CLASSES>
-          <root url="jar:///usr/lib/jvm/jdk1.8.0_241/lib/tools.jar!/" />
+          <root url="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

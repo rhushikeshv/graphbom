@@ -39,11 +39,11 @@
 
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-node-neo4j</artifactId>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-node-neo4j</artifactId>-->
 
-		</dependency>
+<!--		</dependency>-->
 		<!-- <dependency>
              <groupId>org.springframework.node</groupId>
             <artifactId>spring-node-commons</artifactId>
@@ -67,11 +67,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.node</groupId>
-			<artifactId>spring-node-neo4j</artifactId>
-			<version>5.0.1.RELEASE</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.node</groupId>-->
+<!--			<artifactId>spring-node-neo4j</artifactId>-->
+<!--			<version>5.0.1.RELEASE</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.neo4j</groupId>
 			<artifactId>neo4j-ogm-test</artifactId>
